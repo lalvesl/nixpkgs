@@ -28,7 +28,7 @@
 }:
 gcc14Stdenv.mkDerivation (finalAttrs: {
   pname = "xdg-desktop-portal-hyprland";
-  version = "1.3.9";
+  version = "1.3.10";
 
   src = fetchFromGitHub {
     owner = "hyprwm";
